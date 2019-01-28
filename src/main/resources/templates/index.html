@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+<link rel="stylesheet" th:href="@{/css/docs.min.css}">
+<link rel="stylesheet" href="/get/aac.css">
+<title>短应用&trade;</title>
+</head>
+<body>
+  <div class="align-middle text-center" id="get">
+  </div>
+  <p></p>
+	<footer class="bd-footer text-muted fixed-bottom">
+	  <div class="container-fluid p-3">
+	    <p>短应用&trade;由效吉软件&trade;设计和构筑。由短应用团队运营维护。</p>
+	    <p>版权所有&copy;上海效吉软件有限公司 - 沪ICP备14038906号-1</p>
+	  </div>
+	</footer>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script th:src="@{/jquery/js/jquery.min.js}"></script>
+	<script th:src="@{/jquery/js/popper.min.js}"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script th:src="@{/bootstrap/js/bootstrap.min.js}"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
+  <script th:src="@{/js/holder.min.js}"></script>
+  <script src="/get/aac.js"></script>
+  <script type="text/javascript">
+  $('#myhome').on('click', function(){
+	  document.location.href = '/abd/my';
+  });
+  </script>
+</body>
+</html>
